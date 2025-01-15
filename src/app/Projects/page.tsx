@@ -33,7 +33,7 @@ export default function Project(){
 
                             <p className="text-[24px] font-bold">NerdHerd</p>
                             <p className="text-[18px] font-normal text-justify ">
-                                NerdHerd is a productivity app which focuses on gathering all the productivity features to minimize distraction. Like other learning platforms, our app's mentionable functionalities include collaborative note taking, video calling, article-write, real time quiz, AI chatbot.
+                                NerdHerd is a productivity app which focuses on gathering all the productivity features to minimize distraction. Like other learning platforms, our apps mentionable functionalities include collaborative note taking, video calling, article-write, real time quiz, AI chatbot.
                             </p>
 
                             <div className="flex space-x-4">

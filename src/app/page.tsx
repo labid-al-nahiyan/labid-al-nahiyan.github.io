@@ -1,7 +1,4 @@
-import Image from "next/image";
 
-
-import { Jersey_15 } from "next/font/google";
 import Top from "./Top/page";
 import Navbar from "./Navbar/page";
 import Education from "./Education/page";
@@ -10,9 +7,7 @@ import Achievements from "./Achievements/page";
 import Project from "./Projects/page";
 import AboutMe from "./AboutMe/page";
 
-const jersery = Jersey_15({
-  subsets: ["latin"],weight:"400"
-})
+
 export default function Home() {
   return (
     <div>
