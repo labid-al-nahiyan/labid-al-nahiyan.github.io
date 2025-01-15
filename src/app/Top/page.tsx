@@ -6,6 +6,7 @@ import { GoMail } from "react-icons/go";
 import { Jersey_15 } from "next/font/google";
 import Link from "next/link";
 
+import me from '@/../public/img/me.jpeg'
 const jersery = Jersey_15({
   subsets: ["latin"],weight:"400"
 })
@@ -18,7 +19,7 @@ export default function Top(){
          
           <div className="flex justify-end relative">
             <Image
-                src={'/img/me.jpeg'}
+                src={me}
                 className=""
                 width={250}
                 height={250}
