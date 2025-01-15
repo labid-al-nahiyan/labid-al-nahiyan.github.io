@@ -5,6 +5,9 @@ import { IoLogoGithub } from "react-icons/io5";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Image from "next/image";
 
+import football from '@/../public/img/football_player.jpg'
+import genie from '@/../public/img/shopgenie.jpg'
+import nerd from '@/../public/img/GeekGlasses.jpg'
 
 const jersery = Jersey_15({
   subsets: ["latin"],weight:"400"
@@ -21,7 +24,7 @@ export default function Project(){
                     <div className="grid grid-cols-[40%_auto] ">
                         <div className="flex items-center jus">
                             <Image
-                                src={'/img/GeekGlasses.jpg'}
+                                src={nerd}
                                 className=""
                                 width={250}
                                 height={250}
@@ -58,7 +61,7 @@ export default function Project(){
                     <div className="grid grid-cols-[40%_auto]">
                         <div className="flex items-center jus">
                             <Image
-                                src={'/img/shopgenie.jpg'}
+                                src={genie}
                                 className=""
                                 width={250}
                                 height={250}
@@ -95,7 +98,7 @@ export default function Project(){
                     <div className="grid grid-cols-[40%_auto]">
                         <div className="flex items-center jus">
                             <Image
-                                src={'/img/football_player.jpg'}
+                                src={football}
                                 className=""
                                 width={250}
                                 height={250}
