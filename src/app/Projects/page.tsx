@@ -18,7 +18,7 @@ export default function Project(){
         <div className="px-[25%] min-h-[100vh]" id="project" >
             <div className=" grid justify-center  w-[100%] ">
 
-                <p className={`text-[80px] text-center font-bold pb-10 ${jersery.className}`}>Education</p>
+                <p className={`text-[80px] text-center font-bold pb-10 ${jersery.className}`}>Projects</p>
            
                 <div className="space-y-9">
                     <div className="grid grid-cols-[40%_auto] ">
