@@ -15,7 +15,7 @@ const jersery = Jersey_15({
 
 export default function Project(){
     return(
-        <div className="px-[25%] min-h-[100vh]" id="project" >
+        <div className="px-[25%] min-h-[110vh]" id="project" >
             <div className=" grid justify-center  w-[100%] ">
 
                 <p className={`text-[80px] text-center font-bold pb-10 ${jersery.className}`}>Projects</p>

@@ -14,10 +14,10 @@ const jersery = Jersey_15({
 export default function Top(){
 
     return(
-        <div className="min-h-[calc(100vh-50px)] px-[15%] grid grid-cols-[40%_60%]  items-center">
+        <div className="min-h-[calc(110vh-50px)] px-[15%] grid  lg:grid-cols-[40%_60%]  items-center">
 
          
-          <div className="flex justify-end relative">
+          <div className="flex justify-center lg:justify-end relative">
             <Image
                 src={me}
                 className=""

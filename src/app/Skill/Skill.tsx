@@ -14,7 +14,7 @@ const jersery = Jersey_15({
 
 export default function Skill(){
     return(
-        <div className="px-[15%] flex min-h-[100vh] items-center " id="skill">
+        <div className="px-[15%] flex min-h-[110vh] items-center " id="skill">
             <div className="grid justify-center  w-[100%] ">
                 <p className={`text-[80px] text-center font-bold pb-10 ${jersery.className}`}>Skills</p>
 

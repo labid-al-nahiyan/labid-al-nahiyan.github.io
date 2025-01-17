@@ -7,7 +7,7 @@ const jersery = Jersey_15({
 export default function Education(){
 
     return(
-        <div className="px-[15%] " id="education">
+        <div className="px-[15%] min-h-[110vh]"  id="education">
             <div className=" grid justify-center  w-[100%] ">
 
                 <p className={`text-[80px] text-center font-bold py-10 ${jersery.className}`}>Education</p>
