@@ -1,15 +1,14 @@
 'use client';
 
-import { useRouter } from "next/navigation";
+import { redirect } from "next/navigation";
 import { useEffect } from "react";
 
 export default function Labid(){
 
-    const router = useRouter();
-
+    
     useEffect(() => {
-        router.push('/');
-    }, [router]);
+        redirect('/')
+    }, []);
 
     return null
 }
